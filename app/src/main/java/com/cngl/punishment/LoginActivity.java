@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if(isValidEmail(email) && isValidPassword(pass))
         {
-            EmployeeService employeeService=new EmployeeService();
+            EmployeeService employeeService=new EmployeeService(this);
            if(employeeService.login(email,pass)){
                Intent intent=new Intent(this,PunishmentActivity.class);
                startActivity(intent);

@@ -11,4 +11,10 @@ public class TrafficPunishmentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_traffic_punishment);
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+    }
 }

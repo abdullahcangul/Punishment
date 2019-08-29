@@ -25,13 +25,6 @@ public class PunishmentActivity extends AppCompatActivity {
         txtTc=findViewById(R.id.txtTc);
     }
 
-    public void imageprocess(View view) {
-
-    }
-
-    public void punishmwnList(View view) {
-
-    }
 
     public void addPunishment(View view) {
 
